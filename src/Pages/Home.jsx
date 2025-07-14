@@ -47,7 +47,7 @@ const Home = () => {
             products={products} 
        />
 
-       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:grid-cols-4 w-11/12 my-32 mx-auto">
+       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:grid-cols-4 w-11/12 my-32 mx-auto">
             <ServiceCard
                 icon={CiDeliveryTruck}
                 title="Order Delivery"
