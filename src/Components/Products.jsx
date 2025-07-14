@@ -16,9 +16,9 @@ const Products = ({
         </a>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 my-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-0 gap-y-4 md:gap-8 my-8">
         {products.map((product, index) => (
-          <div key={index} className="border border-gray-300 rounded-lg h-auto w-72 hover:shadow-xl transform duration-300 group relative">
+          <div key={index} className="border border-gray-300 mx-auto md:mx-0 rounded-lg h-auto w-[350px] md:w-72 hover:shadow-xl transform duration-300 group relative">
             <img 
               src={product.image} 
               alt={product.name} 

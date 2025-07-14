@@ -32,7 +32,7 @@ const Home = () => {
         },
     ];
   return (
-    <section  className="">
+    <>
        <div className="flex flex-col justify-center items-center w-3/4 md:w-1/2 mx-auto">
           <h2 className="text-4xl md:text-7xl text-center my-3 title">Sustainable Beauty</h2>
           <p className="opacity-60 text-lg text-center my-4">Handcrafted bamboo accessories that blend elegance with sustainability. Each piece tells a story of craftsmanship and environmental consciousness.</p>
@@ -75,7 +75,7 @@ const Home = () => {
             title="Top Selling Products" 
             products={products} 
        />
-    </section>
+    </>
   )
 }
 
