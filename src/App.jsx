@@ -1,7 +1,9 @@
+import Home from "./Pages/Home"
+
 function App() {
   return (
     <>
-    Strawberyl bamboo ecommerce
+      <Home/>
     </>
   )
 }
