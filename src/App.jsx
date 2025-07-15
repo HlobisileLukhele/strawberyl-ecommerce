@@ -1,11 +1,11 @@
-import {Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom"
 import Home from "./Pages/Home"
-import About from "./Pages/About"
+import About from "./Pages/About";
 import Contact from "./Pages/Contact"
 import Bags from "./Pages/Bags"
-import Earings from "./Pages/Earings" 
-import Navbar from "./shared/Navabr";
-
+import Earings from "./Pages/Earings"
+import Navbar from "./shared/Navabr"
+import Footer from "./shared/Footer"
 
 function App() {
   return (
@@ -17,9 +17,8 @@ function App() {
       <Route path="/contact" element={<Contact />} /> 
       <Route path ="/bags" element={<Bags />} />  
       <Route path="/earings" element={<Earings />} /> 
-      {/* Add more routes as needed */}
     </Routes>
-      <Home/>
+    <Footer />
     </>
   )
 }
