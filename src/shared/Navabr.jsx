@@ -31,10 +31,10 @@ const Navbar = () => {
         {/* Desktop Nav Links */}
         <ul className="hidden lg:flex gap-10 text-gray-500 font-medium text-lg items-center">
           <li>
-            <a href="#" className="text-[#ab7c68] font-bold">Home</a>
+            <a href="/" className="text-[#ab7c68] font-bold">Home</a>
           </li>
           <li>
-            <a href="#" className="hover:text-[#ab7c68]">About</a>
+            <a href="/About" className="hover:text-[#ab7c68]">About</a>
           </li>
           <li className="relative group">
             <button
@@ -61,7 +61,7 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <a href="#" className="hover:text-[#ab7c68]">Contact</a>
+            <a href="/Contact" className="hover:text-[#ab7c68]">Contact</a>
           </li>
         </ul>
 
