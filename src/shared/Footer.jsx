@@ -79,7 +79,7 @@ const Footer = () => {
         <div className=" bg-white font-semi-bold text-[#ab7c68]">
           <div className="container mx-auto px-4 py-4">
             <p className="text-base md:text-lg text-gray-700 font-semi-bold text-center">
-             © 2025  Strawberyl-bamboo
+             &copy; 2025  Strawberyl-bamboo
             </p>
           </div>
         </div>
