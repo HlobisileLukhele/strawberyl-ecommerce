@@ -5,6 +5,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Bags from './pages/Bags';
 import Earings from './pages/Earings';
+import SignUp from './Pages/auth/SignUp';
+import SignIn from './Pages/auth/SignIn';
+import ForgotPassword from './Pages/auth/ForgotPassword';
 
  export default function App() {
   return (
@@ -17,6 +20,9 @@ import Earings from './pages/Earings';
           <Route path="bags" element={<Bags />} />
           <Route path="earings" element={<Earings />} />
         </Route>
+        <Route path="/login" element={<SignIn />} />
+        <Route path="/register" element={<SignUp />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
       </Routes>
     </>
   );
