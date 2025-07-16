@@ -89,15 +89,15 @@ const Navbar = () => {
             />
           </div>
           <ul className="flex flex-col gap-5 text-gray-700 text-lg">
-            <li><a href="#" className="text-[#ab7c68]-500 font-bold">Home</a></li>
+            <li><a href="#" className="text-[#ab7c68] font-bold">Home</a></li>
             <li><a href="#" className="hover:text-[#ab7c68]-500">About</a></li>
             <li className="flex flex-col">
-              <span className="hover:text-[#ab7c68]-500">Shop</span>
+              <span className="hover:text-[#ab7c68] ">Shop</span>
               <ul className="pl-4 mt-2 text-sm text-gray-500">
-                <li><a href="#" className="block py-1 hover:text-[#ab7c68]-500">Earings</a></li>
-                <li><a href="#" className="block py-1 hover:text-[#ab7c68]-500">Bags</a></li>
-                <li><a href="#" className="block py-1 hover:text-[#ab7c68]-500">Straw-hats</a></li>
-                <li><a href="#" className="block py-1 hover:text-[#ab7c68]-500">Belts</a></li>
+                <li><a href="#" className="block py-1 hover:text-[#ab7c68]">Earings</a></li>
+                <li><a href="#" className="block py-1 hover:text-[#ab7c68]">Bags</a></li>
+                <li><a href="#" className="block py-1 hover:text-[#ab7c68]">Straw-hats</a></li>
+                <li><a href="#" className="block py-1 hover:text-[#ab7c68]">Belts</a></li>
               </ul>
             </li>
             <li><a href="#" className="hover:text-[#ab7c68]-500">Contact</a></li>
