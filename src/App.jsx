@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './Shared/Navbar';
+import Navbar from './shared/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Contact from './Pages/Contact';
+import Shop from './Pages/Shop';
 import Bags from './pages/Bags';
 import Earings from './pages/Earings';
 import SignUp from './Pages/auth/SignUp';
@@ -16,6 +17,7 @@ import ForgotPassword from './Pages/auth/ForgotPassword';
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="shop" element={<Shop />} />
           <Route path="contact" element={<Contact />} />
           <Route path="bags" element={<Bags />} />
           <Route path="earings" element={<Earings />} />
