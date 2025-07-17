@@ -30,26 +30,26 @@ const Navbar = () => {
           {/* Desktop Nav Links */}
           <ul className="hidden lg:flex gap-10 text-gray-500 font-medium text-lg items-center">
             <li>
-              <Link to="/" className="text-[#7c8c7d] font-bold">Home</Link>
+              <Link to="/" className="text-[#c8937b] font-bold">Home</Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-[#7c8c7d]">About</Link>
+              <Link to="/about" className="hover:text-[#c8937b]">About</Link>
             </li>
             <li className="relative group">
-              <Link to="/shop" className="hover:text-[#7c8c7d]">Shopping</Link>
+              <Link to="/shop" className="hover:text-[#c8937b]">Shopping</Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-[#7c8c7d]">Contact</Link>
+              <Link to="/contact" className="hover:text-[#c8937b]">Contact</Link>
             </li>
           </ul>
 
           {/* Right Icons */}
           <div className="flex items-center gap-4 text-xl text-gray-700">
             <Link to="/login">
-              <FaUser className="cursor-pointer hover:text-[#7c8c7d]" />
+              <FaUser className="cursor-pointer hover:text-[#c8937b]" />
             </Link>
-            <FaSearch className="cursor-pointer hover:text-[#7c8c7d]" />
-            <FaShoppingCart className="cursor-pointer hover:text-[#7c8c7d]" />
+            <FaSearch className="cursor-pointer hover:text-[#c8937b]" />
+            <FaShoppingCart className="cursor-pointer hover:text-[#c8937b]" />
 
             {/* Hamburger Icon */}
             <FaBars
@@ -69,10 +69,10 @@ const Navbar = () => {
               />
             </div>
             <ul className="flex flex-col gap-5 text-gray-700 text-lg">
-              <li><Link to="/" className="text-[#7c8c7d] font-bold" onClick={toggleMenu}>Home</Link></li>
-              <li><Link to="/about" className="hover:text-[#7c8c7d]" onClick={toggleMenu}>About</Link></li>
-              <li><Link to="/shop" className="hover:text-[#7c8c7d]" onClick={toggleMenu}>Shop</Link></li>
-              <li><Link to="/contact" className="hover:text-[#7c8c7d]" onClick={toggleMenu}>Contact</Link></li>
+              <li><Link to="/" className="text-[#c8937b] font-bold" onClick={toggleMenu}>Home</Link></li>
+              <li><Link to="/about" className="hover:text-[#c8937b]" onClick={toggleMenu}>About</Link></li>
+              <li><Link to="/shop" className="hover:text-[#c8937b]" onClick={toggleMenu}>Shop</Link></li>
+              <li><Link to="/contact" className="hover:text-[#c8937b]" onClick={toggleMenu}>Contact</Link></li>
             </ul>
           </div>
         )}
