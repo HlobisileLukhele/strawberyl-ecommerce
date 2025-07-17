@@ -6,13 +6,13 @@ export default function FAQs() {
   const [openId, setOpenId] = useState(null);
 
   const faqs = [
-    { id: 1, question: "1. What makes Strawberyl products sustainable?", answer: "Strawberyl accessories are handcrafted from eco-friendly bamboo, a fast-growing renewable resource. Our production methods minimize waste and support environmental stewardship." },
-    { id: 2, question: "2. Are your accessories truly handmade?", answer: "Yes. Every Strawberyl piece is carefully crafted by skilled artisans, ensuring unique designs and high-quality workmanship." },
-    { id: 3, question: "3. How do I care for my bamboo accessories?", answer: "Avoid prolonged exposure to water and store in a dry place. Wipe gently with a soft cloth to preserve their natural beauty." },
-    { id: 4, question: "5. Why choose bamboo over other materials?", answer: "Bamboo is lightweight, durable, and sustainable. It adds natural elegance to accessories while reducing our ecological footprint." },
-    { id: 5, question: "6. Do you offer custom designs?", answer: "Yes! We love collaborating with customers to create personalized bamboo accessories. Contact us to discuss your ideas." },
-    { id: 6, question: "7. How can I track my order?", answer: "Once your order is shipped, you will receive a tracking number via email. You can use this number on our website to track your order's status." },
-    { id: 7, question: "8. What is your return policy?", answer : "We accept returns within 30 days of delivery. Please contact us for a return merchandise authorization (RMA) number before sending items back. Items must be in their original condition." },
+    { id: 1, question: " What makes Strawberyl products sustainable?", answer: "Strawberyl accessories are handcrafted from eco-friendly bamboo, a fast-growing renewable resource. Our production methods minimize waste and support environmental stewardship." },
+    { id: 2, question: " Are your accessories truly handmade?", answer: "Yes. Every Strawberyl piece is carefully crafted by skilled artisans, ensuring unique designs and high-quality workmanship." },
+    { id: 3, question: " How do I care for my bamboo accessories?", answer: "Avoid prolonged exposure to water and store in a dry place. Wipe gently with a soft cloth to preserve their natural beauty." },
+    { id: 4, question: " Why choose bamboo over other materials?", answer: "Bamboo is lightweight, durable, and sustainable. It adds natural elegance to accessories while reducing our ecological footprint." },
+    { id: 5, question: " Do you offer custom designs?", answer: "Yes! We love collaborating with customers to create personalized bamboo accessories. Contact us to discuss your ideas." },
+    { id: 6, question: " How can I track my order?", answer: "Once your order is shipped, you will receive a tracking number via email. You can use this number on our website to track your order's status." },
+    { id: 7, question: "8 What is your return policy?", answer : "We accept returns within 30 days of delivery. Please contact us for a return merchandise authorization (RMA) number before sending items back. Items must be in their original condition." },
 
 ];
 
