@@ -4,7 +4,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact"
 import Bags from "./Pages/Bags"
 import Earings from "./Pages/Earings"
-import Navbar from "./shared/Navabr"
+import Navbar from "./shared/Navbar"
 import Footer from "./shared/Footer"
 
 function App() {
