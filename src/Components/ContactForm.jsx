@@ -1,15 +1,6 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-  // Defined the form state
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
   // Handle form input errors
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = (data) => console.log(data);
@@ -22,9 +13,6 @@ export default function ContactForm() {
        {/*Name input field*/}
         <input
           type="text"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
           placeholder="Name"
           className="w-full p-3 rounded border bg-white border-gray-300 focus:outline-[#7c8c7d]"
           {...register("name", { required: true })}
@@ -34,9 +22,6 @@ export default function ContactForm() {
         {/*Email input field*/}
         <input
           type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
           placeholder="Email"
           className="w-full p-3 rounded border bg-white border-gray-300 focus:outline-[#7c8c7d]"
           {...register("email", {
@@ -51,9 +36,6 @@ export default function ContactForm() {
         
         {/*Message input field*/}
         <textarea
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
           rows="4"
           placeholder="Message"
           className="w-full p-3 rounded bg-white border border-gray-300 focus:outline-[#7c8c7d]"
