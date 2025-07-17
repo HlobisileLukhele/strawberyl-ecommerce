@@ -9,10 +9,7 @@ import strawberylLogo from "../assets/Strawberyl-logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
   return (
     <>
@@ -33,47 +30,26 @@ const Navbar = () => {
           {/* Desktop Nav Links */}
           <ul className="hidden lg:flex gap-10 text-gray-500 font-medium text-lg items-center">
             <li>
-              <Link to="/" className="text-green-400 font-bold">Home</Link>
+              <Link to="/" className="text-[#7c8c7d] font-bold">Home</Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-green-400">About</Link>
+              <Link to="/about" className="hover:text-[#7c8c7d]">About</Link>
             </li>
             <li className="relative group">
-              <button
-                className="hover:text-green-500"
-                onMouseEnter={() => setIsDropdownOpen(true)}
-                onMouseLeave={() => setIsDropdownOpen(false)}
-              >
-                Shopping
-              </button>
-              {/* Dropdown */}
-              <div
-                className={`absolute top-full left-0 mt-2 bg-white shadow-md rounded-md w-40 p-2 z-50 transition duration-300 ${
-                  isDropdownOpen ? "block" : "hidden"
-                }`}
-                onMouseEnter={() => setIsDropdownOpen(true)}
-                onMouseLeave={() => setIsDropdownOpen(false)}
-              >
-                <ul className="flex flex-col gap-2 text-sm text-gray-700">
-                  <li><Link to="/earings" className="hover:text-green-500">Earings</Link></li>
-                  <li><Link to="/bags" className="hover:text-green-500">Bags</Link></li>
-                  <li><Link to="#" className="hover:text-green-500">Straw-hats</Link></li>
-                  <li><Link to="#" className="hover:text-green-500">Belts</Link></li>
-                </ul>
-              </div>
+              <Link to="/Shop" className="hover:text-[#7c8c7d]">Shopping</Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-green-500">Contact</Link>
+              <Link to="/contact" className="hover:text-[#7c8c7d]">Contact</Link>
             </li>
           </ul>
 
           {/* Right Icons */}
           <div className="flex items-center gap-4 text-xl text-gray-700">
             <Link to="/login">
-              <FaUser className="cursor-pointer hover:text-green-500" />
+              <FaUser className="cursor-pointer hover:text-[#7c8c7d]" />
             </Link>
-            <FaSearch className="cursor-pointer hover:text-green-500" />
-            <FaShoppingCart className="cursor-pointer hover:text-green-500" />
+            <FaSearch className="cursor-pointer hover:text-[#7c8c7d]" />
+            <FaShoppingCart className="cursor-pointer hover:text-[#7c8c7d]" />
 
             {/* Hamburger Icon */}
             <FaBars
@@ -97,12 +73,7 @@ const Navbar = () => {
               <li><Link to="/about" className="hover:text-green-500" onClick={toggleMenu}>About</Link></li>
               <li className="flex flex-col">
                 <span className="hover:text-green-500">Shop</span>
-                <ul className="pl-4 mt-2 text-sm text-gray-500">
-                  <li><Link to="/earings" className="block py-1 hover:text-green-500" onClick={toggleMenu}>Earings</Link></li>
-                  <li><Link to="/bags" className="block py-1 hover:text-green-500" onClick={toggleMenu}>Bags</Link></li>
-                  <li><Link to="#" className="block py-1 hover:text-green-500" onClick={toggleMenu}>Straw-hats</Link></li>
-                  <li><Link to="#" className="block py-1 hover:text-green-500" onClick={toggleMenu}>Belts</Link></li>
-                </ul>
+               
               </li>
               <li><Link to="/contact" className="hover:text-green-500" onClick={toggleMenu}>Contact</Link></li>
             </ul>
