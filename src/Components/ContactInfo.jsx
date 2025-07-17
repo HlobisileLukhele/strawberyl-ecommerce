@@ -7,17 +7,15 @@ function ContactInfo() {
           <div className="space-y-4 text-gray-700">
             <div>
               <strong>Address</strong>
-              <p>32 Deeks Road, The Orchards, Akasia, Pretoria, 0201</p>
+              <p>32 Jown Dory Newlands, Durban, 4362</p>
             </div>
             <div>
               <strong>Phone</strong>
-              <p>083 359 0897</p>
-              <p>086 236 0035</p>
+              <p>27 68 692 0418</p>
             </div>
             <div>
               <strong>Email</strong>
-              <p>sales@nosweleexpress.co.za</p>
-              <p>info@nosweleexpress.co.za</p>
+              <p>sales@strawberylbamboo</p>
             </div>
           </div>
         </div>
