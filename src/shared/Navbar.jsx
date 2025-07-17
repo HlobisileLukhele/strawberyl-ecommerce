@@ -36,7 +36,7 @@ const Navbar = () => {
               <Link to="/about" className="hover:text-[#7c8c7d]">About</Link>
             </li>
             <li className="relative group">
-              <Link to="/Shop" className="hover:text-[#7c8c7d]">Shopping</Link>
+              <Link to="/shop" className="hover:text-[#7c8c7d]">Shopping</Link>
             </li>
             <li>
               <Link to="/contact" className="hover:text-[#7c8c7d]">Contact</Link>
@@ -69,13 +69,10 @@ const Navbar = () => {
               />
             </div>
             <ul className="flex flex-col gap-5 text-gray-700 text-lg">
-              <li><Link to="/" className="text-green-500 font-bold" onClick={toggleMenu}>Home</Link></li>
-              <li><Link to="/about" className="hover:text-green-500" onClick={toggleMenu}>About</Link></li>
-              <li className="flex flex-col">
-                <span className="hover:text-green-500">Shop</span>
-               
-              </li>
-              <li><Link to="/contact" className="hover:text-green-500" onClick={toggleMenu}>Contact</Link></li>
+              <li><Link to="/" className="text-[#7c8c7d] font-bold" onClick={toggleMenu}>Home</Link></li>
+              <li><Link to="/about" className="hover:text-[#7c8c7d]" onClick={toggleMenu}>About</Link></li>
+              <li><Link to="/shop" className="hover:text-[#7c8c7d]" onClick={toggleMenu}>Shop</Link></li>
+              <li><Link to="/contact" className="hover:text-[#7c8c7d]" onClick={toggleMenu}>Contact</Link></li>
             </ul>
           </div>
         )}
