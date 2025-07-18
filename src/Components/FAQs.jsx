@@ -1,4 +1,3 @@
-// src/components/FAQSection.jsx
 import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 

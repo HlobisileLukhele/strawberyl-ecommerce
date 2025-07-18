@@ -1,9 +1,9 @@
 import { IoMdArrowForward } from "react-icons/io";
-import Products from "../Components/Products";
+import Products from "@/components/Products";
+import ServiceCard from "@/components/ServiceCard";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { LuShieldCheck, LuCreditCard, LuPhoneCall  } from "react-icons/lu";
 
-import ServiceCard from "../Components/ServiceCard";
 
 
 

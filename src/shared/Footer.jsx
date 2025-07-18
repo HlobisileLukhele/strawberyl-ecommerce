@@ -1,6 +1,6 @@
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import strawberylLogo from "../assets/Strawberyl-logo.png";
+import strawberylLogo from "@/assets/Strawberyl-logo.png";
 
 const Footer = () => {
   return (
