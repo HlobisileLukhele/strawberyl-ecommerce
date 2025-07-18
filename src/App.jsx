@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './shared/Navbar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './Pages/Contact';
-import Shop from './Pages/Shop';
-import Bags from './pages/Bags';
-import Earings from './pages/Earings';
-import SignUp from './Pages/auth/SignUp';
-import SignIn from './Pages/auth/SignIn';
-import ForgotPassword from './Pages/auth/ForgotPassword';
+import Navbar from '@/shared/Navbar';
+import Home from '@/pages/Home';
+import About from '@/pages/About';
+import Contact from '@/pages/Contact';
+import Shop from '@/pages/Shop';
+import Bags from '@/pages/Bags';
+import Earings from '@/pages/Earings';
+import SignUp from '@/pages/auth/SignUp';
+import SignIn from '@/pages/auth/SignIn';
+import ForgotPassword from '@/pages/auth/ForgotPassword';
 
  export default function App() {
   return (

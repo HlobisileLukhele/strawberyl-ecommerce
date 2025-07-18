@@ -4,7 +4,7 @@ import {FaSearch, FaShoppingCart, FaUser} from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import { LiaTimesSolid } from "react-icons/lia";
 import Footer from './Footer';
-import strawberylLogo from "../assets/Strawberyl-logo.png";
+import strawberylLogo from "@/assets/Strawberyl-logo.png";
 
 
 const Navbar = () => {
