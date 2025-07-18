@@ -1,4 +1,4 @@
-import AboutImage from '../assets/about.png'
+import AboutImage from '@/assets/about.png'
 
 const About = () => {
   return (
@@ -18,10 +18,10 @@ const About = () => {
            </p>
          </div>
 
-         <img src={AboutImage} alt="about-hero" className="object-cover hidden md:block h-[500px]" />
+         <img src={AboutImage} alt="about-hero" className="object-cover hidden md:block h-[400px] md:mt-8" />
       </div>
 
-      <div className="md:text-center text-left my-14 w-full md:w-2/3 mx-auto">
+      <div className="md:text-center text-left mt-10 w-full md:w-2/3 mx-auto">
          <h2 className="text-3xl md:text-4xl my-4 font-bold title text-[#7c8c7d]">
             Our History
            </h2>
@@ -30,32 +30,32 @@ const About = () => {
            </p>
       </div>
 
-       <h2 className="text-3xl md:text-4xl md:text-center text-left mt-4 font-bold title text-[#7c8c7d]">
+       <h2 className="text-3xl md:text-4xl md:text-center text-left mt-10 font-bold title text-[#7c8c7d]">
             Our Values
        </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:grid-cols-3 w-full md:w-11/12 mb-4 mx-auto">
 
             <div className=" flex flex-col items-center md:p-6 justify-center">
-              <h2 className="md:text-4xl text-2xl my-3 font-semibold self-start title">Sustainability</h2>
+              <h2 className="md:text-4xl text-2xl my-3 font-semibold self-start title text-[#7c8c7d]">Sustainability</h2>
               <p className="opacity-50 text-base">We use recycled precious metals, ethically sourced gemstones, and eco-friendly practices to minimize our environmental impact. Our packaging is plastic-free and made from recycled materials.</p>
             </div>
             <div className=" flex flex-col items-center md:p-6 justify-center">
-              <h2 className="text-2xl md:text-4xl my-3 font-semibold self-start title">Community</h2>
+              <h2 className="text-2xl md:text-4xl my-3 font-semibold self-start title text-[#7c8c7d]">Community</h2>
               <p className="opacity-50 text-base">We believe in giving back and partner with organizations that support women's education and environmental conservation. We also mentor emerging jewelry designers and artisans in our community.</p>
             </div>
             <div className=" flex flex-col items-center md:p-6 justify-center">
-              <h2 className="text-2xl md:text-4xl  my-3 font-semibold self-start title">Quality</h2>
+              <h2 className="text-2xl md:text-4xl  my-3 font-semibold self-start title text-[#7c8c7d]">Quality</h2>
               <p className="opacity-50 text-base">We never compromise on quality, using only the finest materials and craftsmanship in every piece we create. We stand behind our work with a lifetime guarantee against manufacturing defects.</p>
             </div>
 
        </div>
 
-        <div className="grid grid-cols-1 gap-2 w-full md:w-7/12 mb-4 mt-10">
+        <div className="grid grid-cols-1 gap-2 w-full md:w-7/12 mt-10 mb-16">
           <div className=" flex flex-col md:flex-row items-center justify-center group">
               <h2 className="font-extrabold title md:text-9xl text-7xl self-end opacity-20 transform duration-500 group-hover:-rotate-12 group-hover:scale-110">01</h2>
               <div className="flex flex-col items-center p-2 md:p-6 justify-center">
-                  <h2 className="text-2xl md:text-4xl  my-3 font-semibold self-start title">Our Craft</h2>
+                  <h2 className="text-2xl md:text-4xl  my-3 font-semibold self-start title text-[#7c8c7d] ">Our Craft</h2>
                   <p className="opacity-50 text-base">Every Strawberyl piece is handcrafted in our San Francisco studio by a team of skilled artisans who share our passion for quality and detail. We combine traditional techniques with modern technology to create pieces that are both timeless and contemporary.</p>
               </div>
           </div>
@@ -63,7 +63,7 @@ const About = () => {
           <div className=" flex flex-col md:flex-row items-center justify-center group">
             <h2 className="font-extrabold title text-7xl md:text-9xl self-end opacity-20 transform duration-500 group-hover:-rotate-12 group-hover:scale-110">02</h2>
             <div className="flex flex-col items-center p-2 md:p-6 justify-center">
-                <h2 className="text-2xl md:text-4xl my-3 font-semibold self-start title">Our Journey Continues</h2>
+                <h2 className="text-2xl md:text-4xl my-3 font-semibold self-start title text-[#7c8c7d]">Our Journey Continues</h2>
                 <p className="opacity-50 text-base">Today, Strawberyl has grown from Eleanor's small studio to a team of passionate artisans and designers, but our commitment to our founding principles remains unchanged. Each piece is still designed and handcrafted in San Francisco with the same care and attention to detail.</p>
             </div>
           </div>
