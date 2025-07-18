@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './Shared/Navbar';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Bags from './pages/Bags';
-import Earings from './pages/Earings';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Bags from './Pages/Bags';
+import Earings from './Pages/Earings';
 import SignUp from './Pages/auth/SignUp';
 import SignIn from './Pages/auth/SignIn';
 import ForgotPassword from './Pages/auth/ForgotPassword';
