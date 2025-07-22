@@ -1,5 +1,5 @@
+import ProductDetail from "@/pages/ProductDetail";
 import { IoMdArrowForward } from "react-icons/io";
-import { PiEyeBold } from "react-icons/pi";
 
 const Products = ({ 
   title = "Featured Products", 
@@ -29,10 +29,8 @@ const Products = ({
               <h2 className="text-lg font-semibold">{product.name}</h2>
               <h2 className="text-xl my-3 font-semibold">{product.price}</h2>
             </div>
-            
-            <a href="#" className="absolute hidden w-10 h-10  items-center top-[25%] left-1/2 transform -translate-x-1/2 justify-center rounded-full bg-gray-200 group-hover:flex z-20">
-              <PiEyeBold />
-            </a>
+
+            <ProductDetail/>
           </div>
         ))}
       </div>
