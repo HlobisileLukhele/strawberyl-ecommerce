@@ -9,6 +9,7 @@ import Earings from '@/pages/Earings';
 import SignUp from '@/pages/auth/SignUp';
 import SignIn from '@/pages/auth/SignIn';
 import ForgotPassword from '@/pages/auth/ForgotPassword';
+import Wishlist from '@/pages/Wishlist';
 
  export default function App() {
   return (
@@ -21,6 +22,7 @@ import ForgotPassword from '@/pages/auth/ForgotPassword';
           <Route path="contact" element={<Contact />} />
           <Route path="bags" element={<Bags />} />
           <Route path="earings" element={<Earings />} />
+          <Route path="wishlist" element={<Wishlist />} />
         </Route>
         <Route path="/login" element={<SignIn />} />
         <Route path="/register" element={<SignUp />} />
