@@ -11,6 +11,7 @@ import SignIn from '@/pages/auth/SignIn';
 import ForgotPassword from '@/pages/auth/ForgotPassword';
 import Wishlist from '@/pages/Wishlist';
 import Cart from '@/pages/Cart';
+import Checkout from '@/pages/Checkout';
 
  export default function App() {
   return (
@@ -25,6 +26,7 @@ import Cart from '@/pages/Cart';
           <Route path="earings" element={<Earings />} />
           <Route path="wishlist" element={<Wishlist />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="checkout" element={<Checkout />} />
         </Route>
         <Route path="/login" element={<SignIn />} />
         <Route path="/register" element={<SignUp />} />
