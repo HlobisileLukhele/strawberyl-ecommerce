@@ -10,6 +10,7 @@ import SignUp from '@/pages/auth/SignUp';
 import SignIn from '@/pages/auth/SignIn';
 import ForgotPassword from '@/pages/auth/ForgotPassword';
 import Wishlist from '@/pages/Wishlist';
+import Cart from '@/pages/Cart';
 
  export default function App() {
   return (
@@ -23,6 +24,7 @@ import Wishlist from '@/pages/Wishlist';
           <Route path="bags" element={<Bags />} />
           <Route path="earings" element={<Earings />} />
           <Route path="wishlist" element={<Wishlist />} />
+          <Route path="cart" element={<Cart />} />
         </Route>
         <Route path="/login" element={<SignIn />} />
         <Route path="/register" element={<SignUp />} />
