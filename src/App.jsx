@@ -4,8 +4,6 @@ import Home from '@/pages/Home';
 import About from '@/pages/About';
 import Contact from '@/pages/Contact';
 import Shop from '@/pages/Shop';
-import Bags from '@/pages/Bags';
-import Earings from '@/pages/Earings';
 import SignUp from '@/pages/auth/SignUp';
 import SignIn from '@/pages/auth/SignIn';
 import ForgotPassword from '@/pages/auth/ForgotPassword';
@@ -22,8 +20,6 @@ import Checkout from '@/pages/Checkout';
           <Route path="about" element={<About />} />
           <Route path="shop" element={<Shop />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="bags" element={<Bags />} />
-          <Route path="earings" element={<Earings />} />
           <Route path="wishlist" element={<Wishlist />} />
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
