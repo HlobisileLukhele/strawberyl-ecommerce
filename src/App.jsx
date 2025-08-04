@@ -13,6 +13,8 @@ import Checkout from '@/pages/Checkout';
 import UserNavbar from '@/shared/UserNavbar';
 import Dashboard from '@/pages/user/Dashboard';
 import AccountDetails from '@/pages/user/AccountDetails';
+import Orders from '@/pages/user/Orders';
+import OrderDetails from '@/pages/user/OrderDetails';
 
  export default function App() {
   return (
@@ -31,6 +33,8 @@ import AccountDetails from '@/pages/user/AccountDetails';
           <Route path="account" element={<UserNavbar/>}>
             <Route index element={<Dashboard />} />
             <Route path="details" element={<AccountDetails />} />
+            <Route path="orders" element={<Orders />} />
+            <Route path="order-details" element={<OrderDetails />} />
           </Route>
 
         </Route>
