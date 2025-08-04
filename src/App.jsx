@@ -12,6 +12,7 @@ import Cart from '@/pages/Cart';
 import Checkout from '@/pages/Checkout';
 import UserNavbar from '@/shared/UserNavbar';
 import Dashboard from '@/pages/user/Dashboard';
+import AccountDetails from '@/pages/user/AccountDetails';
 
  export default function App() {
   return (
@@ -27,8 +28,9 @@ import Dashboard from '@/pages/user/Dashboard';
           <Route path="checkout" element={<Checkout />} />
           
           {/* authenticated user navigation */}
-          <Route path="/account" element={<UserNavbar/>}>
+          <Route path="account" element={<UserNavbar/>}>
             <Route index element={<Dashboard />} />
+            <Route path="details" element={<AccountDetails />} />
           </Route>
 
         </Route>
