@@ -45,14 +45,14 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <ul className="hidden lg:flex gap-10 text-gray-500 font-medium text-sm uppercase items-center">
+          <ul className="hidden lg:flex gap-10 text-gray-500 font-medium text-base uppercase items-center">
             <li><Link to="/" className={navLinkClass("/")}>Home</Link></li>
             <li><Link to="/shop" className={navLinkClass("/shop")}>Shop</Link></li>
             <li><Link to="/about" className={navLinkClass("/about")}>About</Link></li>
             <li><Link to="/contact" className={navLinkClass("/contact")}>Contact</Link></li>
           </ul>
 
-          <div className="flex items-center gap-x-4 text-xl text-gray-700">
+          <div className="flex items-center gap-x-4 text-2xl text-gray-700">
             <Link to="/login">
               <CiUser className="cursor-pointer hover:text-[#c8937b]" />
             </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
               onClick={toggleHeartDrawer}
               className="relative flex items-center justify-center h-6 w-6 cursor-pointer group"
             >
-              <CiHeart className="size-6 group-hover:text-[#c8937b]" />
+              <CiHeart className="group-hover:text-[#c8937b]" />
               <span className="absolute -top-1.5 -right-1.5 h-5 w-5 text-xs flex items-center justify-center rounded-full bg-[#7c8c7d] text-white">
                 0
               </span>
@@ -73,7 +73,7 @@ const Navbar = () => {
               onClick={toggleCartDrawer}
               className="relative flex items-center justify-center h-6 w-6 cursor-pointer group"
             >
-              <CiShoppingCart className="size-6 group-hover:text-[#c8937b]" />
+              <CiShoppingCart className="group-hover:text-[#c8937b]" />
               <span className="absolute -top-1.5 -right-1.5 h-5 w-5 text-xs flex items-center justify-center rounded-full bg-[#7c8c7d] text-white">
                 0
               </span>
