@@ -10,6 +10,8 @@ import ForgotPassword from '@/pages/auth/ForgotPassword';
 import Wishlist from '@/pages/Wishlist';
 import Cart from '@/pages/Cart';
 import Checkout from '@/pages/Checkout';
+import UserNavbar from '@/shared/UserNavbar';
+import Dashboard from '@/pages/user/Dashboard';
 
  export default function App() {
   return (
@@ -23,6 +25,12 @@ import Checkout from '@/pages/Checkout';
           <Route path="wishlist" element={<Wishlist />} />
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
+          
+          {/* authenticated user navigation */}
+          <Route path="/account" element={<UserNavbar/>}>
+            <Route index element={<Dashboard />} />
+          </Route>
+
         </Route>
         <Route path="/login" element={<SignIn />} />
         <Route path="/register" element={<SignUp />} />
