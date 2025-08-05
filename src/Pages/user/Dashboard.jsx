@@ -59,17 +59,17 @@ export default function Dashboard() {
           <tbody>
             {filteredOrders.map((order) => (
               <tr key={order.id} className="border-b hover:bg-gray-50 border-gray-200 transition whitespace-nowrap">
-                <td className="p-3 text-sm font-medium text-gray-800">{order.id}</td>
-                <td className="p-3 text-sm text-gray-700">{order.date}</td>
-                <td className="p-3 text-sm text-gray-700">
+                <td className="p-3 font-medium text-gray-800">{order.id}</td>
+                <td className="p-3 text-gray-700">{order.date}</td>
+                <td className="p-3 text-gray-700">
                   {order.items} item{order.items > 1 ? 's' : ''}
                 </td>
-                <td className="p-3 text-sm text-gray-800">{order.total}</td>
+                <td className="p-3 text-gray-800">{order.total}</td>
               </tr>
             ))}
             {filteredOrders.length === 0 && (
               <tr>
-                <td colSpan="4" className="text-center text-sm text-gray-500 py-6">
+                <td colSpan="4" className="text-center text-gray-500 py-6">
                   No orders match that ID.
                 </td>
               </tr>

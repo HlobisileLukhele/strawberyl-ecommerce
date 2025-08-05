@@ -37,8 +37,8 @@ const Products = ({
             />
             <div className="p-5">
               <h3 className="text-sm opacity-60">{product.category}</h3>
-              <h2 className="text-lg font-semibold">{product.name}</h2>
-              <h2 className="text-xl my-3 font-semibold">{product.price}</h2>
+              <h2 className="text-base font-semibold">{product.name}</h2>
+              <h2 className="text-base my-3 font-semibold">{product.price}</h2>
             </div>
 
             <ProductDetail />

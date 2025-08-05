@@ -63,7 +63,7 @@ export default function EditAddress() {
             required
           />
          
-          <button type="submit" className="w-1/6 bg-[#7c8c7d] text-white font-medium py-3 cursor-pointer hover:opacity-90">
+          <button type="submit" className="md:w-1/6 w-full bg-[#7c8c7d] text-white font-medium py-3 cursor-pointer hover:opacity-90">
             Save address
           </button>
       </form>
