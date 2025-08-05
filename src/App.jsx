@@ -15,6 +15,8 @@ import Dashboard from '@/pages/user/Dashboard';
 import AccountDetails from '@/pages/user/AccountDetails';
 import Orders from '@/pages/user/Orders';
 import OrderDetails from '@/pages/user/OrderDetails';
+import Address from '@/pages/user/Address';
+import EditAddress from '@/pages/user/EditAddress';
 
  export default function App() {
   return (
@@ -35,6 +37,8 @@ import OrderDetails from '@/pages/user/OrderDetails';
             <Route path="details" element={<AccountDetails />} />
             <Route path="orders" element={<Orders />} />
             <Route path="order-details" element={<OrderDetails />} />
+            <Route path="address" element={<Address />} />
+            <Route path="address/edit" element={<EditAddress />} />
           </Route>
 
         </Route>
