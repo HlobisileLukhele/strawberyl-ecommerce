@@ -24,7 +24,7 @@ export default function UserNavbar() {
             <Link to="/account/orders" className={`${boxStyles} ${navStyles('/account/orders')}`}>
                 Orders
             </Link>
-            <Link to="#" className={`${boxStyles} ${navStyles('/addresses')}`}>
+            <Link to="/account/address" className={`${boxStyles} ${navStyles('/account/address')}`}>
                 Addresses
             </Link>
             <Link to="/account/details" className={`${boxStyles} ${navStyles('/account/details')}`}>
